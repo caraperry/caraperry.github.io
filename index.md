@@ -23,9 +23,72 @@
 </head>
 
 <body>
+  
+  <nav role="navigation">
+    <ul class="nav">
+      <li><a href="/portfolio">Portfolio</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+</nav> 
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- Main content here -->
+  
+<main class="container" id="content" role="main">
+  <div class="masthead">
+    <div class="masthead-content">
+      <h1>Hi, I'm Cara Perry</h1>
+        <p class="mastheadSub">I'm a UI / Visual Designer based in London. I combine UX design to make accessible products and design systems to meet the needs of users.</p>
+    </div>
+  </div>
+  <section class="sectionList">
+    <h2>Recent projects</h2>
+      <ul class="dateList">
+        <li>
+          <span class="dateList-date">Design</span> <h3><p>Web interface design and Branding of <a rel="noopener noreferrer" href="#">Adspur</a></p></h3>
+        </li>
+        <li>
+          <span class="dateList-date">Print</span> <h3><p>Dual language<a rel="noopener noreferrer" href="#">wedding invitation</a></p></h3>
+        </li>
+        <li>
+          <span class="dateList-date">Branding</span> <h3><p>Redesigning and simplifying <a rel="noopener noreferrer" href="#">EcoTimes logo</a></p></h3>
+        </li>
+      </ul>
+  </section>
+</main>
+  
+<footer role="contentinfo">
+  <div class="footer-top">
+    <div class="footer-info">
+      <h2>Contact me</h2>
+      <p>Come rain or shine, I am availabile from July 2021.</p>
+      <div class="buttons">
+        <a href="/contact" class="button">Get in touch</a>
+      </div>
+    </div>
+  <div class="footer-info">
+    <h2>Services</h2>
+    <ul class="footerNav">
+      <li><a href="/design">Design</a></li>
+      <li><a href="/consultations">Consultations</a></li>
+    </ul>
+  </div>
+  <div class="footer-info">
+    <h2>Explore</h2>
+    <ul class="footerNav">
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="https://dribbble.com/caraperry">Dribble</a></li>
+      <li><a href="https://www.linkedin.com/in/caraperry/">Linkedin</a></li>
+    </ul>
+   </div>
+  <div class="footer-bottom">
+    <div class="social">
+      <p>Cara Perry, UI Designer, United Kingdom. © 2008 — 2012</p>
+    </div>
+  </div>
+</footer>
+  
+  
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
